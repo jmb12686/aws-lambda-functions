@@ -1,7 +1,7 @@
 # aws-lambda-functions
-#Repository for all my AWS Lambda functions.  
+# Repository for all my AWS Lambda functions.  
 
-##Dynamic DNS for Home
+## Dynamic DNS for Home
 I am currently using the two Lambda functions (**_EchoCallerIP_** and **_UpdateHomeDNS_**) to 
 effectively replace a DDNS provider.  I have setup my own domain in Route 53 and exposed endpoints via AWS API Gateway to invoke these Lambda functions.  
 
